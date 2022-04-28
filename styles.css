@@ -1,0 +1,333 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+input[type=range] {
+  accent-color: #FFB400;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.main-container {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #FFB400;
+}
+
+.main-container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  margin: auto;
+  background-color: #E5E5E5;
+  border-radius: 20px;
+}
+
+.main-container .card .block1 {
+  width: 30%;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  background-color: #ffff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.main-container .card .block1 .name {
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.main-container .card .block1 .role {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.main-container .card .block1 .profile-pic {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-container .card .block1 .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.main-container .card .block1 .icons img {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #FFB400;
+}
+
+.main-container .card .block1 .empty-block {
+  width: 80%;
+  margin: 20px auto;
+  height: 1px;
+  background-color: #636161;
+}
+
+.main-container .card .block1 .age, .main-container .card .block1 .residence, .main-container .card .block1 .freelance, .main-container .card .block1 .address, .main-container .card .block1 .languages, .main-container .card .block1 .english, .main-container .card .block1 .hindi, .main-container .card .block1 .skills, .main-container .card .block1 .html, .main-container .card .block1 .css, .main-container .card .block1 .javascript {
+  width: 80%;
+  margin: 10px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-container .card .block1 .languages, .main-container .card .block1 .skills {
+  margin-bottom: 20px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.main-container .card .block1 .english, .main-container .card .block1 .hindi, .main-container .card .block1 .html, .main-container .card .block1 .css, .main-container .card .block1 .javascript {
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-container .card .block1 .progress1 {
+  width: 80%;
+  height: 4px;
+  margin: auto;
+  margin-left: 10%;
+  background-color: #FFB400;
+}
+
+.main-container .card .block1 .progress2 {
+  width: 50%;
+  height: 4px;
+  margin: auto;
+  margin-left: 10%;
+  background-color: #FFB400;
+}
+
+.main-container .card .block1 .progress3 {
+  width: 70%;
+  height: 4px;
+  margin: auto;
+  margin-left: 10%;
+  background-color: #FFB400;
+}
+
+.main-container .card .block1 .progress4 {
+  width: 60%;
+  height: 4px;
+  margin: auto;
+  margin-left: 10%;
+  background-color: #FFB400;
+}
+
+.main-container .card .block1 .progress5 {
+  width: 50%;
+  height: 4px;
+  margin: auto;
+  margin-left: 10%;
+  background-color: #FFB400;
+  margin-bottom: 20px;
+}
+
+.main-container .card .block1 .age p:first-child, .main-container .card .block1 .residence p:first-child, .main-container .card .block1 .freelance p:first-child, .main-container .card .block1 .address p:first-child {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.main-container .card .block1 .age p:nth-child(2), .main-container .card .block1 .residence p:nth-child(2), .main-container .card .block1 .freelance p:nth-child(2), .main-container .card .block1 .address p:nth-child(2) {
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-container .card .block2 {
+  width: 65%;
+  margin-right: 20px;
+  background-color: #E5E5E5;
+}
+
+.main-container .card .block2 .personal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+}
+
+.main-container .card .block2 .personal img {
+  display: block;
+  width: 130px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-container .card .block2 .personal .information {
+  width: 80%;
+  padding: 25px;
+}
+
+.main-container .card .block2 .personal .information p:nth-child(1) {
+  width: 90%;
+  font-family: 'Poppins', sans-serif;
+  line-height: 36px;
+  font-size: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.main-container .card .block2 .personal .information p:nth-child(1) span {
+  color: #FFB400;
+}
+
+.main-container .card .block2 .personal .information p:nth-child(2) {
+  width: 90%;
+  margin-bottom: 30px;
+  font-family: 'Roboto Slab', serif;
+  color: #AAA7A7;
+  font-size: 12px;
+}
+
+.main-container .card .block2 .personal .information button {
+  padding: 8px 28px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  background-color: #FFB400;
+  border: none;
+}
+
+.main-container .card .block2 .mid-section p:nth-child(1) {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 100px auto 20px auto;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.main-container .card .block2 .mid-section p:nth-child(2) {
+  width: 70%;
+  margin: auto auto 50px auto;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+  color: #636161;
+}
+
+.main-container .card .block2 .technology {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 45% 45%;
+      grid-template-columns: 45% 45%;
+  grid-column-gap: 10%;
+  grid-row-gap: 40px;
+  padding-bottom: 30px;
+}
+
+.main-container .card .block2 .technology .web, .main-container .card .block2 .technology .ds-algo, .main-container .card .block2 .technology .javascript, .main-container .card .block2 .technology .mysql {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 6px 6px 0px #00000040;
+          box-shadow: 0px 6px 6px 0px #00000040;
+}
+
+.main-container .card .block2 .technology .web img, .main-container .card .block2 .technology .ds-algo img, .main-container .card .block2 .technology .javascript img, .main-container .card .block2 .technology .mysql img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 15px auto;
+}
+
+.main-container .card .block2 .technology .web p:nth-child(2), .main-container .card .block2 .technology .ds-algo p:nth-child(2), .main-container .card .block2 .technology .javascript p:nth-child(2), .main-container .card .block2 .technology .mysql p:nth-child(2) {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  font-weight: 600;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.main-container .card .block2 .technology .web p:nth-child(3), .main-container .card .block2 .technology .ds-algo p:nth-child(3), .main-container .card .block2 .technology .javascript p:nth-child(3), .main-container .card .block2 .technology .mysql p:nth-child(3) {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 10px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin: 10px auto 10px;
+  color: #636161;
+}
+
+.main-container .card .block3 {
+  width: 5%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #ffffff;
+}
+
+.main-container .card .block3 img:first-child {
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 200px;
+}
+
+.main-container .card .block3 img {
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=styles.css.map */
